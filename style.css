@@ -1,0 +1,62 @@
+html,body{
+   margin: 0%;
+   box-sizing: border-box;
+   overflow-x: hidden;
+   background-color: black;
+}
+/*-----------Global-------*/
+.flex-row{
+   text-decoration: rosybrown;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+}
+ul{
+   list-style-type: none;
+}
+h1{
+   
+   background-color: black;
+   color: chartreuse;
+}
+img{
+   align-self: center;
+}
+/*-----------Global-------*/
+.nav{
+   background: yellow;
+   padding: 0 2rem;
+   height: 0rem;
+   min-height: 17vh;
+   overflow: hidden;
+}
+.nav .nav-menu{
+   justify-content: space-between;
+   display: flex;
+   flex-direction: row;
+}
+.nav .nav-item{
+ 
+   display: flex;
+   margin: 0%;
+}
+.nav .nav-item .nav-link{
+   padding: 1.6rem 1rem;
+   font-size: 1.1rem;
+   position: relative;
+}
+.nav .nav-brand a{
+   font-size: 1.5rem;
+   padding: 1rem 0;
+   text-decoration: none;
+   display: block;
+}
+
+.nav .social{
+   padding: 1.4rem;
+}
+
+p{
+   text-align: left;
+   color: white;
+}
